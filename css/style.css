@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    float: left;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-image: url(../img/maket2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.wrapper_header{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    float: left;
+    width: 300px;
+    margin-top: 40px;
+}
+.logotext{
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    color: rgba(241, 205, 179, 255);
+    font-family: fantasy;
+    text-align: center;
+    
+}
+.logopidtext{
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+.navigation{
+    float: left;
+    width: 50%;
+    
+}
+.navigation ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation li{
+    display: inline-block;
+    margin-top: 50px;
+}
+.navigation a{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.wrapper_header_container{
+    width: 350px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 8%;
+    margin-bottom: 200px;
+}
+
+.wrapper_header_container p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 44px;
+}
+.wrapper_header_container_text{
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.wrapper_header_container_btn{
+    width: 200px;
+    height: 50px;
+    background: #f1cdb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.wrapper_header_container a{
+    text-decoration: none;
+    color: #2f2a29;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+    float: left;
+    width: 100%;
+}
+.about_the_shelter{
+    float: left;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about_the_shelter_img{
+    width: 300px;
+}
+
+.about_the_shelter_boxtext{
+    width: 25%;
+}
+.about_the_shelter_boxtext_zagolovok{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.about_the_shelter_boxtext_text1{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.about_the_shelter_boxtext_text2{
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/*секція про допомогу*/
+
+.help_the_shelter{
+    width: 100%;
+    float: left;
+}
+.help_the_shelter_title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.help_the_shelter_container_img{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.help_the_shelter_container_img_top{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.help_the_shelter_container_img_bottom{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.help_the_shelter_container_img_top_minibox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4% 0 4%;
+}
+.help_the_shelter_container_img span{
+    font-family: 'DM Mono', monospace;
+    font-size: 16px;
+    margin-top: 15px;
+}
